@@ -45,7 +45,6 @@ body {
 
 .hero_section {
 	display: flex;
-	width: 100%;
 	height: 85vh;
 }
 .hero_content {
@@ -54,7 +53,7 @@ body {
 }
 .hero_content h2 {
 	font-size: 55px;
-	margin-top: 65px;
+	margin-top: 20px;
 	color: #575757;
 }
 .hero_content span,
@@ -101,4 +100,90 @@ body {
 }
 .hero_content.about_content {
 	margin-top: 100px;
+}
+
+/* Recipe Section CSS */
+
+.recipe_content {
+	padding: 40px 0;
+}
+.recipe_content h2 {
+	text-align: center;
+	font-size: 35px;
+	color: #676767;
+}
+.recipe_content p {
+	color: #676767;
+	text-align: center;
+	font-size: 16px;
+	margin: 30px 350px;
+	line-height: 20px;
+}
+.recipies {
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+}
+.single_recipie {
+	width: 300px;
+	border-radius: 15px;
+	padding: 20px;
+	box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
+	margin-right: 40px;
+	margin-bottom: 50px;
+}
+.single_recipie:last-child {
+	margin-right: 0px;
+}
+.single_recipie img {
+	width: 100%;
+}
+.single_recipie h3 {
+	font-size: 20px;
+	color: #18191f;
+	margin: 20px 0 10px 0;
+}
+.single_recipie p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #18191f;
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
+}
+. {
 }
