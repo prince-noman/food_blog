@@ -55,11 +55,13 @@ body {
 .hero_content h2 {
 	font-size: 55px;
 	line-height: 60px;
-	margin-top: 100px;
+	margin-top: 20%;
 	color: #575757;
 }
 .hero_content span,
 .about span,
+.subscribe_area span,
+.contact_details span,
 .footer_area span {
 	color: #e74c3c;
 }
@@ -101,9 +103,6 @@ body {
 	margin-left: 25%;
 	margin-top: 8%;
 }
-.hero_content.about_content {
-	margin-top: 100px;
-}
 
 /* Recipe Section CSS */
 
@@ -128,7 +127,7 @@ body {
 	width: 80%;
 }
 .single_recipie {
-	width: 300px;
+	width: 33%;
 	border-radius: 15px;
 	padding: 20px;
 	box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
@@ -163,14 +162,14 @@ body {
 .fans {
 	display: flex;
 	border-radius: 15px;
-	padding: 20px;
+	padding: 15px;
 	box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
-	margin-right: 40px;
 	margin-bottom: 50px;
 }
 .single_fan {
 	width: 300px;
 	margin: 50px 75px;
+	padding-left: 5%;
 }
 .single_fan h2 {
 	font-size: 30px;
@@ -178,6 +177,56 @@ body {
 .single_fan p {
 	font-size: 14px;
 	margin-top: 15px;
+}
+
+/* Contact Area CSS */
+
+.contact_section {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	height: 200px;
+	padding-bottom: 50px;
+}
+.subscribe_area {
+	width: 50%;
+	margin-left: 10%;
+}
+.subscribe_area h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 45px;
+}
+.subscribe_area input {
+	outline: none;
+	border: 1px solid orangered;
+	height: 30px;
+	width: 45%;
+	border-radius: 25px;
+}
+.subscribe_area button {
+	color: white;
+	background-image: linear-gradient(124deg, #f00, #ff6000b3);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: montserrat;
+}
+.contact_details {
+	width: 50%;
+}
+.contact_details h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.contact_details ul {
+	list-style: none;
+}
+.contact_details ul li {
+	line-height: 30px;
 }
 
 /* Footer Section CSS */
@@ -196,6 +245,4 @@ body {
 	padding-top: 20px;
 	color: #fff;
 	font-size: 14px;
-}
-. {
 }
